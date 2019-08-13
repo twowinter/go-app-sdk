@@ -1,4 +1,4 @@
-module github.com/TheThingsNetwork/go-app-sdk
+module github.com/twowinter/go-app-sdk
 
 go 1.11
 
