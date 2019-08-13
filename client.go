@@ -67,7 +67,7 @@ type ClientConfig struct {
 
 // NewCommunityConfig creates a new configuration for the API client that is pre-configured for the Public Community Network.
 func NewCommunityConfig(clientName string) ClientConfig {
-	return NewConfig(clientName, "https://account.thethingsnetwork.org", "discovery.thethings.network:1900")
+	return NewConfig(clientName, "https://account.things.qcloud.com", "cn.thethings.network:1900")
 }
 
 // NewConfig creates a new configuration for the API client.
